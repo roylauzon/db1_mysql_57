@@ -1,0 +1,82 @@
+{
+  "Column": [
+    {
+      "CHARACTER_MAXIMUM_LENGTH": null,
+      "CHARACTER_OCTET_LENGTH": null,
+      "CHARACTER_SET_NAME": null,
+      "COLLATION_NAME": null,
+      "COLUMN_COMMENT": "",
+      "COLUMN_DEFAULT": null,
+      "COLUMN_KEY": "PRI",
+      "COLUMN_NAME": "idnew_table",
+      "COLUMN_TYPE": "int(11)",
+      "DATA_TYPE": "int",
+      "DATETIME_PRECISION": null,
+      "EXTRA": "",
+      "GENERATION_EXPRESSION": "",
+      "IS_NULLABLE": "NO",
+      "NUMERIC_PRECISION": 10,
+      "NUMERIC_SCALE": 0,
+      "obj": "new_table",
+      "ORDINAL_POSITION": 1,
+      "PRIVILEGES": "select,insert,update,references",
+      "TABLE_CATALOG": "def",
+      "type": "TABLE"
+    }
+  ],
+  "Constraints": [
+    {
+      "Columns": [
+        {
+          "column_name": "idnew_table",
+          "constraint_catalog": "def",
+          "constraint_name": "PRIMARY",
+          "ordinal_position": 1,
+          "position_in_unique_constraint": null,
+          "referenced_column_name": null,
+          "referenced_table_name": null,
+          "referenced_table_schema": null,
+          "table_name": "new_table"
+        }
+      ],
+      "constraint_catalog": "def",
+      "constraint_name": "PRIMARY",
+      "constraint_type": "PRIMARY KEY",
+      "delete_rule": null,
+      "obj": "new_table",
+      "type": "TABLE",
+      "update_rule": null
+    }
+  ],
+  "General": [
+    {
+      "AUTO_INCREMENT": null,
+      "AVG_ROW_LENGTH": 0,
+      "CREATE_OPTIONS": "",
+      "MAX_DATA_LENGTH": 0,
+      "obj": "new_table",
+      "TABLE_COLLATION": "latin1_swedish_ci",
+      "TABLE_COMMENT": "",
+      "type": "TABLE"
+    }
+  ],
+  "Indexes": [
+    {
+      "Columns": [
+        {
+          "COLLATION": null,
+          "COLUMN_NAME": "idnew_table",
+          "INDEX_NAME": "inx",
+          "obj": "new_table",
+          "SEQ_IN_INDEX": 1
+        }
+      ],
+      "INDEX_NAME": "inx",
+      "INDEX_TYPE": "BTREE",
+      "NON_UNIQUE": 1,
+      "obj": "new_table",
+      "TABLE_CATALOG": "def",
+      "type": "TABLE"
+    }
+  ]
+}
